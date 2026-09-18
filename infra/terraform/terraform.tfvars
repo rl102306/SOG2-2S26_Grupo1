@@ -1,0 +1,5 @@
+project_id    = "sog2-2s26-grupo1-pra1"
+region        = "us-central1"
+instance_name = "sog2-pra1-postgres"
+database_name = "ventas_sog2"
+database_user = "sog2_app"

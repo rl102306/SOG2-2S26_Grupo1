@@ -1,0 +1,20 @@
+REPORTE DE LIMPIEZA - ARCHIVO PROPORCIONADO
+===========================================
+Filas originales: 1008
+Duplicados exactos eliminados: 5
+Fechas inválidas eliminadas: 0
+Filas finales: 1003
+
+Valores faltantes o inválidos detectados antes de imputar:
+- Id_cliente: 0
+- Edad: 31
+- Genero: 75
+- Venta_total: 95
+- N_Compras: 0
+- FechaCompra: 0
+- MontoCompra: 92
+- MetodoPago: 100
+- Tiempo: 0
+- Navegador: 83
+- Boletin: 73
+- Vale: 74

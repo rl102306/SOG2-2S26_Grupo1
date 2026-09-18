@@ -1,0 +1,45 @@
+REPORTE DE LIMPIEZA
+===================
+Filas originales: 1008
+Duplicados eliminados: 5
+Fechas inválidas eliminadas: 0
+Filas finales: 1003
+
+VALORES FALTANTES / INVÁLIDOS DETECTADOS ANTES DE IMPUTAR
+- Id_cliente: 0
+- Edad: 31
+- Genero: 75
+- Venta_total: 95
+- N_Compras: 0
+- FechaCompra: 0
+- MontoCompra: 92
+- MetodoPago: 100
+- Tiempo: 0
+- Navegador: 83
+- Boletin: 73
+- Vale: 74
+
+VALORES FALTANTES DESPUÉS DE LA LIMPIEZA
+- Id_cliente: 0
+- Edad: 0
+- Genero: 0
+- Venta_total: 0
+- N_Compras: 0
+- FechaCompra: 0
+- MontoCompra: 0
+- MetodoPago: 0
+- Tiempo: 0
+- Navegador: 0
+- Boletin: 0
+- Vale: 0
+
+CRITERIOS UTILIZADOS
+- Edad válida: 0 a 100 años.
+- Genero válido: 0 = Masculino, 1 = Femenino.
+- MetodoPago válido: 0, 1 o 2.
+- Navegador válido: 0, 1, 2, 3 o 4.
+- Boletin y Vale válidos: 0 o 1.
+- Montos negativos se consideran inválidos.
+- Numéricos faltantes/inválidos: mediana.
+- Categóricos faltantes/inválidos: moda.
+- Duplicados exactos: eliminados.
